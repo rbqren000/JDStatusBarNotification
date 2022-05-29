@@ -26,9 +26,12 @@
 		7EFD77A628434906000BFBF1 /* SBSceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EFD77A528434906000BFBF1 /* SBSceneDelegate.m */; };
 		7EFD77A728434A03000BFBF1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D264F89C1820213200DA0E53 /* main.m */; };
 		7EFD77A828434A0B000BFBF1 /* SBAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D264F8A01820213200DA0E53 /* SBAppDelegate.m */; };
-		D20088C819571C5600E60EE4 /* StatusBarStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = D20088C619571C5600E60EE4 /* StatusBarStyle.swift */; };
-		D20088C919571C5600E60EE4 /* StatusBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D20088C719571C5600E60EE4 /* StatusBarView.swift */; };
-		D20088CB19571CB200E60EE4 /* StatusBarNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = D20088CA19571CB200E60EE4 /* StatusBarNotification.swift */; };
+		7EFD77AE284358A5000BFBF1 /* StatusBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D20088C719571C5600E60EE4 /* StatusBarView.swift */; };
+		7EFD77AF284358A5000BFBF1 /* StatusBarNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = D20088CA19571CB200E60EE4 /* StatusBarNotification.swift */; };
+		7EFD77B0284358A5000BFBF1 /* StatusBarStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = D20088C619571C5600E60EE4 /* StatusBarStyle.swift */; };
+		7EFD77B1284358A6000BFBF1 /* StatusBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D20088C719571C5600E60EE4 /* StatusBarView.swift */; };
+		7EFD77B2284358A6000BFBF1 /* StatusBarNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = D20088CA19571CB200E60EE4 /* StatusBarNotification.swift */; };
+		7EFD77B3284358A6000BFBF1 /* StatusBarStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = D20088C619571C5600E60EE4 /* StatusBarStyle.swift */; };
 		D228A0CA182DA75A006B7ABB /* SBSelectPropertyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D228A0C9182DA75A006B7ABB /* SBSelectPropertyViewController.m */; };
 		D25B0FA5184F343700B8174B /* JDStatusBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = D25B0FA4184F343600B8174B /* JDStatusBarView.m */; };
 		D25B0FA8184F364100B8174B /* JDStatusBarStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = D25B0FA7184F364100B8174B /* JDStatusBarStyle.m */; };
@@ -43,7 +46,6 @@
 		D264F8C9182123D400DA0E53 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D264F8C8182123D400DA0E53 /* QuartzCore.framework */; };
 		D294B57B182D03E90042B5B4 /* SBCustomStyleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D294B579182D03E90042B5B4 /* SBCustomStyleViewController.m */; };
 		D294B57C182D03E90042B5B4 /* SBCustomStyleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D294B57A182D03E90042B5B4 /* SBCustomStyleViewController.xib */; };
-		D2EB665A193F8D980083FC44 /* StatusBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2EB6659193F8D980083FC44 /* StatusBarView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -295,13 +297,16 @@
 			files = (
 				7EFD77A628434906000BFBF1 /* SBSceneDelegate.m in Sources */,
 				7EFD778D2843461D000BFBF1 /* JDStatusBarView.m in Sources */,
+				7EFD77AF284358A5000BFBF1 /* StatusBarNotification.swift in Sources */,
 				7EFD778F2843461D000BFBF1 /* JDStatusBarNotification.m in Sources */,
 				7EFD77902843461D000BFBF1 /* SBExampleViewController.m in Sources */,
 				7EFD77912843461D000BFBF1 /* JDStatusBarStyle.m in Sources */,
 				7EFD77922843461D000BFBF1 /* JDStatusBarLayoutMarginHelper.m in Sources */,
+				7EFD77AE284358A5000BFBF1 /* StatusBarView.swift in Sources */,
 				7EFD77932843461D000BFBF1 /* SBSelectPropertyViewController.m in Sources */,
 				7EFD77A828434A0B000BFBF1 /* SBAppDelegate.m in Sources */,
 				7EFD77A728434A03000BFBF1 /* main.m in Sources */,
+				7EFD77B0284358A5000BFBF1 /* StatusBarStyle.swift in Sources */,
 				7EFD77942843461D000BFBF1 /* SBCustomStyleViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -311,16 +316,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				D264F89D1820213200DA0E53 /* main.m in Sources */,
-				D20088C819571C5600E60EE4 /* StatusBarStyle.swift in Sources */,
 				D25B0FA5184F343700B8174B /* JDStatusBarView.m in Sources */,
 				D264F8A11820213200DA0E53 /* SBAppDelegate.m in Sources */,
 				D264F8C21820216300DA0E53 /* JDStatusBarNotification.m in Sources */,
-				D20088C919571C5600E60EE4 /* StatusBarView.swift in Sources */,
 				D264F8C61820219F00DA0E53 /* SBExampleViewController.m in Sources */,
 				D25B0FA8184F364100B8174B /* JDStatusBarStyle.m in Sources */,
+				7EFD77B1284358A6000BFBF1 /* StatusBarView.swift in Sources */,
 				2829C39D1F8B15F900764707 /* JDStatusBarLayoutMarginHelper.m in Sources */,
 				D228A0CA182DA75A006B7ABB /* SBSelectPropertyViewController.m in Sources */,
-				D20088CB19571CB200E60EE4 /* StatusBarNotification.swift in Sources */,
+				7EFD77B3284358A6000BFBF1 /* StatusBarStyle.swift in Sources */,
+				7EFD77B2284358A6000BFBF1 /* StatusBarNotification.swift in Sources */,
 				D294B57B182D03E90042B5B4 /* SBCustomStyleViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -339,6 +344,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.calimarkus.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "JDSBN_${TARGET_NAME}";
+				SWIFT_VERSION = 5.0;
 				WARNING_CFLAGS = "-Wall";
 				WRAPPER_EXTENSION = app;
 			};
@@ -355,6 +361,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.calimarkus.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "JDSBN_${TARGET_NAME}";
+				SWIFT_VERSION = 5.0;
 				WARNING_CFLAGS = "-Wall";
 				WRAPPER_EXTENSION = app;
 			};
@@ -475,6 +482,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.calimarkus.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "JDSBN_${TARGET_NAME}";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				WARNING_CFLAGS = "-Wall";
 				WRAPPER_EXTENSION = app;
 			};
@@ -493,6 +501,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.calimarkus.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "JDSBN_${TARGET_NAME}";
+				SWIFT_VERSION = 5.0;
 				WARNING_CFLAGS = "-Wall";
 				WRAPPER_EXTENSION = app;
 			};
